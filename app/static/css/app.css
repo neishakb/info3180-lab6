@@ -5,3 +5,34 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+
+.news__list{
+    /* display: flex;
+    flex-wrap: wrap;
+    align-content: space-around; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4%;
+}
+
+.news__list img{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    border-top-color: rgb(93, 210, 185);
+    border-top-width: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+   
+}
+
+    
+.headingname{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 35px;
+}
